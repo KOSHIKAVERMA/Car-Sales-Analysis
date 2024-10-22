@@ -4,7 +4,18 @@
 
 ### COMPANY OVERVIEW :
 
-The company is a fictitious car dealership company offering a range of car models. To better monitor and analyze their sales performance, I aim to develop a detailed Car Sales Dashboard using **Power BI**.
+The company is a fictitious car dealership company offering a range of car models. To better monitor and analyze their sales performance, I aimed to develop a detailed Car Sales Dashboard using **Power BI**.
+
+<br>
+
+### TABLE OF CONTENT
+
+
+
+
+
+
+
 
 <br>
 
@@ -14,21 +25,9 @@ The goal of this project is to create an interactive and dynamic Car Sales Dashb
 
 <br>
 
-### TABLE OF CONTENT
-
-<br>
-
-
-
-
-
-
-
-
-
 ### DATA COLLECTION
 
-
+The data that I used for this project is from kaggle.com.  
 
 
 
