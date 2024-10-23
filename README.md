@@ -74,7 +74,7 @@ The dataset used for this project was sourced from Kaggle and downloaded in Exce
 
 ---
 
-### DATA CLEANING
+## DATA CLEANING
 
 I initiated by checking the quality of the data, for which I used the **Column distribution** and **quality** feature in power query editor. There were no errors and empty values found. In the engine column I **replaced** the value (DoubleÂ Overhead Camshaft) with (Double Overhead Camshaft).
 
@@ -82,23 +82,68 @@ I initiated by checking the quality of the data, for which I used the **Column d
 
 ---
 
- ### ANALYSIS
+ ## ANALYSIS
+
+### Calendar Table
+
+The first thing I did while starting to analyze the data was creating a calendar table. The calendar table helped me in performing accurate and flexible time-based analysis. It allowed me to easily perform date-related calculations such as Year-to-Date (YTD), Month-to-Date (MTD), and Year-on-year (YOY), as well as compare data across different time periods.
+
+First I created a table named Calnder table; 
+``` dax
+CALENDAR TABLE = CALENDAR(MIN(car_data[Date]), max(car_data[Date]))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 To address the key objectives of this project, I created KPI cards and visualization charts. These visuals offer a focused view of sales patterns, regional strengths, and customer preferences.
 
-[**KPI CARDS**]
+### KPI CARDS
 
 I used **DAX measures** to create these KPI cards, offering quick insights into key metrics like total sales, average price, and cars sold.
 
-**1) Sales Overview :**
+- **Sales Overview :**
 
-    Year-to-Date (YTD) Total Sales : 
+   **Year-to-Date (YTD) Total Sales** : It is the cumulative sales from the start of the year to the current date, used to track sales performance within the year.
 
-    Month-to-Date (MTD) Total Sales :
+  ``` dax
+        YTD Total Sales = TOTALYTD(SUM(car_data[Price ($)]), 'CALENDAR TABLE'[Date])
+   ```
 
-    Year-over-Year (YOY) Growth in Total Sales :
 
-    Difference between YTD Sales and Previous Year-to-Date (PTYD) Sales :
+
+
+   **Month-to-Date (MTD) Total Sales** :
+
+   **Year-over-Year (YOY) Growth in Total Sales** :
+
+   **Difference between YTD Sales and Previous Year-to-Date (PTYD) Sales** :
 
 
 Average Price Analysis:
