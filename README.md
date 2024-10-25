@@ -402,9 +402,11 @@ The matrix allows for a granular view of individual sales, making it **easy to t
 
 <br>
 
-Since Red and other colors have lower sales, the company could consider offering special deals or limited-time promotions to move inventory in these less popular colors. Highlighting unique styling options or offering discounts for these colors may attract customers looking for more distinct car options.
+This project successfully created an interactive Car Sales Dashboard using **Power BI**, providing key insights into **sales performance, trends, and customer preferences**. By analyzing metrics like total sales, average price, and regional performance, stakeholders can make data-driven decisions to optimize strategies.
 
+Key findings include the **popularity of Pale White cars, strong SUV sales, and high-performing regions like Austin and Janesville**. Strengthening relationships with top brands like **Chevrolet** and **Ford**, alongside **targeted promotions** and **strategic pricing**, will drive **future growth**.
 
+The dashboard is a valuable tool for **tracking performance** and guiding informed **decision-making**.
 
 
 
