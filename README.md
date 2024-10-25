@@ -250,6 +250,20 @@ I used **DAX measures** to create these KPI cards, offering quick insights into 
        YOY Cars sold Growth = [Cars sold Diff] / [PYTD Cars sold]
    ```
 
+<br>
+
+### CHARTS
+
+
+
+
+
+
+
+
+
+
+
 
 
 
