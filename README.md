@@ -2,33 +2,25 @@
 
 <br>
 
-### COMPANY OVERVIEW :
+## PROJECT OVERVIEW
 
-The company is a fictitious car dealership company offering a range of car models. To better monitor and analyze their sales performance, I aimed to develop a detailed Car Sales Dashboard using **Power BI**.
-
-<br>
+This project focuses on creating an interactive and dynamic **Sales Dashboard** for a fictitious **car dealership** company based in the **USA**, offering a diverse range of car models. The goal is to develop a comprehensive dashboard using **Power BI** that displays key performance indicators **(KPIs)** related to car sales, average price, and more. This will provide valuable insights into **sales trends over time and support data-driven decision-making**. With interactive visualizations and intuitive analytics, stakeholders can easily track sales by model, region, and time period, empowering them to make informed decisions and **strategize for future growth**.
 
 --- 
 
+<br>
+
 ### TABLE OF CONTENT
 
-- [Project Overview](#project-overview)
 - [Data Collection](#data-collection)
 - [Data Cleaning](#data-cleaning)
 - [Analysis and Insights](#analysis-and-insights)
 - [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
-<br>
-
-
-### PROJECT OVERVIEW :
-
-The goal of this project is to create an interactive and dynamic Car Sales Dashboard that will display key performance indicators **(KPIs)** related to car sales, average price, etc., providing insights into **sales trends** over time and supporting **data-driven decision-making**. With interactive visualizations and intuitive analytics, stakeholders can effortlessly track sales by model, region, and time period, enabling informed decision-making and strategic planning for growth. 
-
-<br>
-
 ---
+
+<br>
 
 ### DATA COLLECTION
 
@@ -76,11 +68,13 @@ The dataset used for this project was sourced from Kaggle and downloaded in Exce
 
 ## DATA CLEANING
 
-I initiated by checking the quality of the data, for which I used the **Column distribution** and **quality** feature in power query editor. There were no errors and empty values found. In the engine column I **replaced** the value (DoubleÂ Overhead Camshaft) with (Double Overhead Camshaft).
+To began with the cleaning process I first imported the file in Power BI. I initiated by checking the quality of the data, for which I used the **Column distribution** and **quality** feature in power query editor. There were no errors and empty values found. 
 
- <br>
+In the engine column I **replaced** the value (DoubleÂ Overhead Camshaft) with (Double Overhead Camshaft).
 
- ---
+<br>
+
+---
 
  ## ANALYSIS AND INSIGHTS
 
