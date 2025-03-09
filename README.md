@@ -173,7 +173,7 @@ I used **DAX measures** to create these KPI cards, offering quick insights into 
     First, I calculated the average price.
   
   ``` dax
-        Avg Price = SUM(car_data[Price ($)]) / COUNT(car_data[Car_id])
+        Avg Price = Average(car_data[Price ($)])
    ```
 
    **YTD Average Price** : YTD Average Price helps businesses track pricing trends, assess profitability, and compare pricing performance against previous years or periods. 
