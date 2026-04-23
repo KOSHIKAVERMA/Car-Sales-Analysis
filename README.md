@@ -68,7 +68,7 @@ The dataset used for this project was sourced from Kaggle and downloaded in Exce
 
 ## DATA CLEANING
 
-To began with the cleaning process I first imported the file in Power BI. I initiated by checking the quality of the data, for which I used the **Column distribution** and **quality** feature in power query editor. There were no errors and empty values found. 
+To began with the cleaning process I first imported the file in Power BI. I initiated by checking the quality of the data, for which I used the **Column distribution** and **quality** feature in power query editor, there were no errors and empty values found. Checked all the data types of all the columns. Also checked for any duplicate records, but there were no duplicates as well. 
 
 In the engine column I **replaced** the value (DoubleÂ Overhead Camshaft) with (Double Overhead Camshaft).
 
